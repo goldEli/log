@@ -21,7 +21,7 @@
 
 ### python
 
-下载 Python3
+下载 Python3：
 
 ```
 https://www.python.org/downloads/
@@ -29,14 +29,14 @@ https://www.python.org/downloads/
 
 ### nodejs
 
-下载长期维护版本
+下载长期维护版本：
 
 ```
 https://nodejs.org/zh-cn/
 ```
 ### vscode
 
-下载最新版即可
+下载最新版即可：
 
 ```
 https://code.visualstudio.com/
@@ -53,7 +53,7 @@ https://${publisher}.gallery.vsassets.io/_apis/public/gallery/publisher/${publis
 ```
 `${publisher}` `${extension name}` `${version}` 为变量。
 
-打开 prettier 页面
+打开 prettier 页面：
 
 ```
 https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
@@ -73,18 +73,33 @@ https://esbenp.gallery.vsassets.io/_apis/public/gallery/publisher/esbenp/extensi
 
 下载其他插件同理。
 
+
 ### yarn
+
+下载最新版即可:
 
 ```
 https://yarnpkg.com/zh-Hans/
 ```
 
-通过 yarn 命令安装项目相关依赖。
+删除所有缓存:
+
+```
+yarn cache clean 
+```
+
+打开 minerUI, 安装项目相关依赖:
+
+```
+yarn
+```
 
 安装完成或，所有依赖会安装到缓存文件夹中。
 
+获取缓存文件地址:
+
 ```
-yarn cache dir # 获取缓存文件地址
+yarn cache dir
 ```
 
 将缓存文件压缩，命名为 yarn_cache。
@@ -102,13 +117,12 @@ yarn cache dir # 获取缓存文件地址
 ```
 code --install-extension prettier.vsix
 ```
-出现
+出现下面提示即安装成功，重启 vscode，安装完成。
 
 ```
 extension 'prettier.vsix' was successful installed!
 ```
 
-即安装成功，重启 vscode 即可。
 
 ### yarn 缓存
 
