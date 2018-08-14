@@ -1,4 +1,4 @@
-# mienr 项目离线开发：
+# miner 项目离线开发：
 
 随着项目需求，有些局点需要去现场开发调试，且不能连接外网。本文主要介绍如何搭建 miner 项目的离线开发环境。（开发环境多为 windows，下文默认 windows 环境）
 
@@ -135,7 +135,7 @@ yarn cache dir # 获取缓存文件地址
 
 ### 启动项目
 
-在 vscode 打开 mienrUI 源码包
+在 vscode 打开 minerUI 源码包
 
 执行：
 
