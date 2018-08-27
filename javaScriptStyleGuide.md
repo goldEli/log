@@ -14,54 +14,56 @@
 
 7. 尽量少用 if else，禁止在 else 中嵌套if else。
 
-```
-// bad
-if (a === 1) {
-  // do somthing
-} else {
-  // do something
-}
-
-// good 
-if (a === 1) {
-  // do somthing
-  return
-} 
-// do something
-
-```
+	```
+	// bad
+	if (a === 1) {
+		// do somthing
+	} else {
+		// do something
+	}
+	
+	// good 
+	if (a === 1) {
+		// do somthing
+	return
+	} 
+	// do something
+	
+	```
 
 8. 每行代码结束，使用分号。
 
 9. 给函数命名，这在做堆栈的时候很有帮助：
-```
-// bad
-var log = function (msg) {
-  console.log(msg);
-};
 
-// good
-var log = function log(msg) {
-  console.log(msg);
-};
-```
+	```
+	// bad
+	var log = function (msg) {
+	  console.log(msg);
+	};
+	
+	// good
+	var log = function log(msg) {
+	  console.log(msg);
+	};
+	```
 
-10.文件名与类名完全相同
-```
-// file contents
-class CheckBox {
-  // ...
-}
-module.exports = CheckBox;
+10. 文件名与类名完全相同
 
-// in some other file
-// bad
-var CheckBox = require('./checkBox');
-
-// bad
-var CheckBox = require('./check_box');
-
-// good
-var CheckBox = require('./CheckBox');
-
-```
+	```
+	// file contents
+	class CheckBox {
+	  // ...
+	}
+	module.exports = CheckBox;
+	
+	// in some other file
+	// bad
+	var CheckBox = require('./checkBox');
+	
+	// bad
+	var CheckBox = require('./check_box');
+	
+	// good
+	var CheckBox = require('./CheckBox');
+	
+	```
