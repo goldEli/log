@@ -60,7 +60,8 @@ var CheckBox = require('./checkBox');
 
 // bad
 var CheckBox = require('./check_box');
-```
 
 // good
 var CheckBox = require('./CheckBox');
+
+```
