@@ -1,2 +1,2 @@
 # log
-记录一些总结
+record something
